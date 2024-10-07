@@ -157,7 +157,6 @@ def generate_csv():
                 break
             writer.writerow([t, stock, side, order, size])
 
-
 def read_csv():
     """ Read a CSV or order history into a list. """
     with open('test.csv', 'rt') as f:
